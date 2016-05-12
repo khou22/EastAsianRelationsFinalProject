@@ -31,6 +31,11 @@ dl, dd, ol, ul, figure {
    font-weight: bold italic;
 }
 
+@font-face {
+   font-family: lotusFont;
+   src: url(./../media/Gang of Three/go3v2.ttf);
+}
+
 * {
   font-family: defaultFont;
 }

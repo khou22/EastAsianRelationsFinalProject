@@ -4,15 +4,20 @@ body {
   margin: 0px;
 }
 
-.eastAsia-landing-background {
-  -webkit-filter: blur(4px);
+.landing-page-cover {
   width: 100vw;
   height: 100vh;
 }
 
-.eastAsia-bg-video {
+.landing-background {
+  -webkit-filter: blur(0px) grayscale(50%) brightness(70%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-video {
   /*Reference: http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video*/
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -35,14 +40,59 @@ body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
-.eastAsia-landing-content {
+.landing-cover-content {
   position: absolute;
   z-index: 1;
-  width: 600px;
+  width: 800px;
   height: 400px;
-  border-radius: 12px;
+  text-align: center;
   left: 50%;
   top: 50%;
   color: white;
-  -webkit-transform: translateX(-300px) translateY(-200px);
+  -webkit-transform: translateX(-400px) translateY(-200px);
+}
+
+.landing-title {
+  font-size: 72px;
+  font-family: lotusFont;
+}
+
+.landing-subtitle {
+  font-size: 24px;
+}
+
+.scroll-down {
+  position: absolute;
+  z-index: 1;
+  background-image: url(../media/chevron_down_bw.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  width: 30px;
+  height: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-15px);
+  bottom: 10px;
+}
+
+.scroll-down-animation {
+  animation-name: bounce;
+  animation-duration: 600ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  from {
+    bottom: 10px;
+  }
+  to {
+    bottom: 20px;
+  }
+}
+
+.landing-page-content {
+  width: 100vw;
+  height: 100vh;
 }
