@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  overflow-y: scroll;
   padding: 0px;
   margin: 0px;
 }
@@ -7,12 +8,13 @@ body {
 .landing-page-cover {
   width: 100vw;
   height: 100vh;
+  transform-style: preserve-3d;
 }
 
 .landing-background {
   -webkit-filter: blur(0px) grayscale(50%) brightness(70%);
   width: 100vw;
-  height: 100vh;
+  height: 105vh;
 }
 
 .bg-video {
@@ -41,6 +43,8 @@ body {
 }
 
 .landing-cover-content {
+  -webkit-perspective: 500px; /* Chrome, Safari, Opera */
+
   position: absolute;
   z-index: 1;
   width: 800px;
@@ -49,7 +53,7 @@ body {
   left: 50%;
   top: 50%;
   color: white;
-  -webkit-transform: translateX(-400px) translateY(-200px);
+  -webkit-transform: translateX(-400px) translateY(-200px) translateZ(10px);
 }
 
 .landing-title {
@@ -59,6 +63,13 @@ body {
 
 .landing-subtitle {
   font-size: 24px;
+}
+
+.landing-video-play {
+  width: 150px;
+  height: 150px;
+  margin-top: 30px !important;
+  margin: auto;
 }
 
 .scroll-down {
@@ -94,5 +105,5 @@ body {
 
 .landing-page-content {
   width: 100vw;
-  height: 100vh;
+  height: 105vh;
 }
