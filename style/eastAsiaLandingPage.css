@@ -8,6 +8,7 @@ body {
 .landing-page-cover {
   width: 100vw;
   height: 100vh;
+  margin-bottom: 5vh;
   transform-style: preserve-3d;
 }
 
@@ -51,18 +52,35 @@ body {
   height: 400px;
   text-align: center;
   left: 50%;
-  top: 50%;
+  top: 43%;
   color: white;
   -webkit-transform: translateX(-400px) translateY(-200px) translateZ(10px);
 }
 
 .landing-title {
-  font-size: 72px;
+  font-size: 120px;
   font-family: lotusFont;
 }
 
 .landing-subtitle {
+  font-size: 48px;
+  font-family: lotusFont;
+}
+
+.landing-map-header {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.landing-map-title {
+  font-size: 64px;
+}
+
+.landing-map-subtitle {
   font-size: 24px;
+  color: #212121;
 }
 
 .landing-video-play {
