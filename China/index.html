@@ -1,0 +1,102 @@
+<!-- Not using the template (no nav bar, footer, etc.)
+---
+layout: default
+---
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>East Asian Relations Final Project</title>
+
+    <!-- React -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Javascript Libraries -->
+    <script src="../libraries/TheaterJS-2.0.1/dist/theater.min.js"></script> <!-- TheaterJS -->
+
+    <!-- Map -->
+    <script src="../libraries/ammap/ammap.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../libraries/ammap/ammap.css" type="text/css" media="all" />
+    <script src="../libraries/ammap/maps/js/worldLow.js" type="text/javascript"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../style/fontStyle.css">
+    <link rel="stylesheet" href="../style/eastAsianLandingPage.css">
+    <link rel="stylesheet" href="../style/eastAsianMain.css">
+    <link rel="stylesheet" href="../style/header.css">
+
+    <!-- Google Analytics -->
+    <!-- Get google analytics on final site -->
+
+    <!-- Favicon -->
+    <!-- Add favicon later -->
+  </head>
+  <header>
+    <div class="site-title">
+      <!-- Just Company Title -->
+      <a><h1>City Strong Training</h1></a>
+
+      <!-- Logo with Company Title -->
+      <!-- <img type="image/png" href="Media/favicon.png"/> -->
+    </div>
+
+    <div class="main-menu">
+      <a class="nav-link">Benefits</a>
+      <a class="nav-link">About Me</a>
+      <a class="nav-link">Testimonials</a>
+      <a class="nav-link">Sign Up</a>
+    </div>
+  </header>
+  <body>
+    <!-- DIV that will be modified by ReactJS -->
+    <div id="content"></div>
+
+    <!-- ReactJS Code -->
+    <!-- <script type="text/jsx;harmony=true" src="../Components/EastAsianRelations.js"> -->
+    <script type="text/jsx;harmony=true">
+      var EastAsianRelations = React.createClass({
+        getInitialState: function() {
+          return {
+            data: [
+              {
+                welcomeBackground: "http://all4desktop.com/data_images/original/4237127-china.jpg",
+                themeColor: "#E53935"
+              }
+            ]
+          }
+        },
+        render: function() {
+          return (
+            <div>
+              <HeaderSection data={this.state.data[0]}/>
+            </div>
+          );
+        }
+      })
+
+      var HeaderSection = React.createClass({
+        render: function() {
+          var backgroundStyle = { "backgroundImage": "url(" + this.props.data.welcomeBackground + ")"}
+          return (
+            <div className="ea-welcome" style={backgroundStyle}>
+
+            </div>
+          )
+        }
+      })
+
+      React.render(
+        React.createElement(EastAsianRelations, null),
+        document.getElementById('content')
+      );
+
+    </script>
+  </body>
+</html>
