@@ -50,12 +50,25 @@ layout: default
     <script type="text/jsx;harmony=true">
       var EastAsianRelations = React.createClass({
         getInitialState: function() {
+          var countryIndex = 0;
+          var currentURL = window.location.href;
+          for (var i = 0; i < pageData.length; i++) {
+            var parameterIndex = currentURL.indexOf('?'); // Beginning of parameter
+            var parameters = currentURL.substring(parameterIndex, currentURL.length); // Keep only last bit
+            // console.log("Looking for:", pageData[i].countrySlug, "in", parameters); // Feedback
+            var index = parameters.indexOf(pageData[i].countrySlug);
+            if (index != -1) { // If url contains slug
+              // console.log("Country:", pageData[i].countryName); // Feedback
+              countryIndex = i;
+            }
+          }
           return {
+            countryIndex: countryIndex,
             data: pageData
           }
         },
         render: function() {
-          var currentCountryIndex = 0;
+          var currentCountryIndex = this.state.countryIndex;
           var countryData = this.state.data[currentCountryIndex]
           var articleNodes = countryData.articles.map(function(article) {
             return (
@@ -107,16 +120,18 @@ layout: default
           return (
             <div className="site-header" style={ headerStyle }>
               <div className="site-title">
-                <a><h1>East Asian Relations</h1></a>
+                <a href="file:///Users/KevinHou/Documents/Programming/EastAsianRelationsFinalProject/index.html" className="site-title-link">
+                  <h1>East Asian Relations</h1>
+                </a>
               </div>
 
               <div className="main-menu">
-                <a className="nav-link">Overview</a>
-                <a className="nav-link">China</a>
-                <a className="nav-link">Japan</a>
-                <a className="nav-link">North Korea</a>
-                <a className="nav-link">South Korea</a>
-                <a className="nav-link">Sources</a>
+                <a href="?c=ov" className="nav-link">Overview</a>
+                <a href="?c=cn" className="nav-link">China</a>
+                <a href="?c=jp" className="nav-link">Japan</a>
+                <a href="?c=nk" className="nav-link">North Korea</a>
+                <a href="?c=sk" className="nav-link">South Korea</a>
+                <a href="Sources/index.html" className="nav-link">Sources</a>
               </div>
             </div>
           )

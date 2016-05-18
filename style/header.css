@@ -11,10 +11,16 @@
 
 .site-title {
   display: inline-block;
+  margin-top: 6px;
   margin-left: 6px;
   margin-right: 12px;
   font-family: lotusFont;
   font-size: 22px;
+}
+
+.site-title-link {
+  text-decoration: none;
+  color: white;
 }
 
 h1 {
@@ -28,12 +34,13 @@ h1 {
 
 a.main-menu:link {
   /*Remove underline from links*/
-  text-decoration: none;
+  text-decoration: none !important;
   color: black;
 }
 
 a.nav-link:hover {
   color: grey;
+  text-decoration: none !important;
 }
 
 a {
@@ -44,4 +51,6 @@ a {
   vertical-align: middle;
   margin-left: 12px;
   margin-right: 12px;
+  text-decoration: none;
+  color: white;
 }
