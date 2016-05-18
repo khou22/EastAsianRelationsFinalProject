@@ -8,3 +8,61 @@
   position: fixed;
   z-index: -1; /*Always on bottom*/
 }
+
+.ea-welcome-filler {
+  margin-top: 50px;
+  height: 70vh;
+  width: 100vw;
+  z-index: 0;
+  position: relative;
+}
+
+.ea-welcome-content {
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  left: 7%;
+  width: 50%;
+  text-align: left;
+  color: white;
+}
+
+.ea-welcome-header {
+  font-size: 120px;
+}
+
+.ea-welcome-subheader {
+  font-size: 40px;
+}
+
+
+.ea-article-div {
+  background-color: black;
+  color: white;
+  border-top: 2px solid white;
+  padding: 24px;
+  padding-bottom: 100px;
+}
+
+.ea-article-title {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.ea-article-author {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.ea-article-content {
+  margin-top: 12px;
+}
+
+.ea-paragraph {
+  text-indent: 50px;
+  line-height: 20px;
+}
+
+.ea-paragraph-br {
+  line-height: 32px;
+}
