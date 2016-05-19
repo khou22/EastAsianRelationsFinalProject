@@ -89,22 +89,36 @@ layout: default
         render: function() {
           var title = this.props.article.title;
           var author = this.props.article.author;
+          var indent = this.props.article.indent; // If true, 50px indent. If false, 10px padding left
+          var indentStyle = indent == true ? { "textIndent": "50px" } : { "paddingLeft": "10px" }; // Apply indent
+
           var paragraphNodes = this.props.article.content.map(function(paragraph) {
             return (
-              <div className="ea-paragraph">
+              <div className="ea-paragraph" style={ indentStyle }>
                 { paragraph }
                 <br className="ea-paragraph-br"/>
               </div>
             )
+          })
+          var authorNodes = [author].map(function(author) {
+            if (author != "NA") { // If assigned an author
+              return (
+                <h3 className="ea-article-author">
+                  <i>Written by: { author }</i>
+                </h3>
+              )
+            } else { // Return nothing
+              return (
+                <span></span>
+              )
+            }
           })
           return (
             <div className="ea-article-div">
               <h1 className="ea-article-title">
                 { title}
               </h1>
-              <h3 className="ea-article-author">
-                Written by: { author }
-              </h3>
+              { authorNodes }
               <div className="ea-article-content">
                 { paragraphNodes }
               </div>

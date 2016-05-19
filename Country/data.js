@@ -10,6 +10,7 @@ var pageData = [
       {
         title: "Overview of East Asian Misconceptions",
         author: "NA",
+        indent: true,
         content: [
           "One common stereotype surrounding the East Asian countries is that the issues surrounding them don’t affect us U.S. citizens. Here are three case studies (out of many more) that prove this stereotype false. First, the East China Sea Conflict. Most of us Americans know that the Taliban, the civil wars in Syria and Libya, and the war against ISIS are all critical issues in U.S. foreign policy.  But many don’t know that territorial disputes in the East China Sea between China and Japan are just as high-stakes. Both Japan and China have declared economic rights in an exclusive economic zone (EEZ) 200 nautical miles wide, but these zones overlap as the sea is only 360 miles wide.  In addition, there have been ongoing squabbles between the two countries over a series of small islands called the Senkaku/Daioyu islands. Although leaders in both countries have been careful not to escalate the dispute, nationalism and mistrust among citizens on both sides make it possible that unauthorized military commanders on both sides could make the tension come to a head. In 2012, the U.S. congress declared that the islands fall under the  Treaty of Mutual Cooperation and Security between the United States and Japan, and thus that in the event of an attack by China the US would defend Japan. This occurrence could potentially get the U.S. entangled in a war with China, and is thus critical to U.S. foreign policy.",
           "Korean reunification provides another case study. Although North and South Korea may seem like defined countries on the world map, their existence as separate entities is more precarious than clear-cut lists and foreign policy documents reveal. In fact, the interests of foreign countries, particularly the U.S., have played a large role as to preventing Korea’s reunification. Today China uses North Korea as a physical buffer between it and the U.S. The U.S., on the other hand, has stationed thousands of troops in South Korea so as not to allow China’s power to expand unchecked. The U.S. is interested in preserving this stalemate – just as in the Cold War era, we don’t want to jeopardize our security by risking a unified, China-friendly Korea. In addition, if reunification occurred, South Korea and global powers would need to provide a projected $3 billion to aid North Korean reconstruction. As South Korea’s most powerful ally, the U.S. would likely be forced to supply some of the money, and this economic cost is yet another reason why Korean reunification is not an issue to cast off lightly.",
@@ -28,6 +29,7 @@ var pageData = [
       {
         title: "China Censor’s Everything!!! Right?",
         author: "Dixon Layton",
+        indent: true,
         content: [
           "Because we live in a western country that enjoys many freedoms not universal to the world, we tend to think things about other countries based on some innate comparison to the experiences we have. This is neither unexpected nor bad, but it can get us into traps when thinking about countries that are fundamentally different than we are. China’s free speech and internet censorship policies are one of the easiest places to get caught up in western frames of mind, because the mindset in China regarding these topics seems irrational and crazy to us, despite it being perfectly normal in China.",
           "The most obvious area where we expect there to be issues is with free speech, because we always assume that in a country where that doesn’t exist, absolutely everyone who does will get taken in. That is simply not the case in China, where certain individuals--like the artist Ai Weiwei--have been actively trying to counter the government’s rhetoric. Of course, it is true that some of the most outspoken and revolutionary activists have been arrested, but on the whole that’s not the case, because the Chinese government has been very smart about this. They recognize that if they were to arrest their opponents in the most public way, then it would lead to problems, so in effect they just ignore them, and no one has a big enough following to make any revolution happen.",
@@ -38,6 +40,7 @@ var pageData = [
       {
         title: "WHY CHINA IS NOT TAKING OVER THE WORLD. CHINA IS KILLING US/CHINA IS RICHER THAN US",
         author: "Kevin Qiwei",
+        indent: true,
         content: [
           "China is not taking over the world and isn’t going to defeat the US or something - China currently has too much of its interests tied intimately together with its economics and so much of it is integrated into a global, modern-day economy that it risks imploding onto itself if it tries to do anything to upset the global status quo by too much. Most of China’s power is in its soft power in form of economy, not as much in military hard power. Despite frequent claims of Chinese military getting more and more powerful (which have a grain of truth to them), the Chinese military is still decidedly less powerful than that of the US. China is surrounded by countries aligned with the US (Japan, South Korea, Philippines for example) and is currently in the middle of a very difficult economic transition, so it’s got a lot of domestic issues to take care first. The Economist claimed that “It is a question of when, not if, real trouble will hit in China” with regards to a debt bust that it thinks China is going to have soon, showing that mainstream media also recognize the difficulties China is having with its economy (for further reference look at China’s stock market). There are many issues with the Chinese economy, and it may take only one of them to implode the Chinese market and send it into turmoil. Furthermore, the most recent incarnation of China’s government is also relatively young and untested, and it remains to be seen whether it can whether all kinds of challenges, such as world wars and major economic downturns and come out better than before.",
           "As for China getting richer than the US and all such hype, as of 2014 the US is 22.3% of world economy by GDP, while China is only 13.4%. It would take China a very long time, if ever, to catch up with and exceed the economic prowess of an established superpower. Minus all kinds of structural problems, such as increasingly inefficient state-run giants (the world’s top 4 biggest banks by asset are all state-run Chinese banks, and China’s “3 oil buckets” take up 2nd to 4th in the world by revenue), centralized command economy blocking market-orientated reforms and the debt/high-risk lending issues all across China, China still has a long way to go to surpass the US."
@@ -46,6 +49,7 @@ var pageData = [
       {
         title: "COMMUNISM/CAPITALISM IN CHINA",
         author: "Lizzy Wu",
+        indent: true,
         content: [
           "It seems contradictory that Mao’s communist policies have been replaced with Deng Xiaoping’s more capitalist ones. While the government is communist, the economy is capitalist, yet the two competing ideologies have historically been so incompatible that a Cold War was born. From our western perspective, we find it difficult to fully understand Chinese economics because we are too focused on trying to slap either a communist or capitalist label on China as a whole. How does China reconcile the two ideologies and why?",
           "Deng Xiaoping looked at the historical success rate of command economies (economies that are controlled completely by the government), and realized that it was ineffectual, inefficient, and costly because no leader or group of leaders can be completely omniscient to know all the market trends from cabbage to shoes. This leads to shortages and surpluses which also leads to social unrest. Capitalist economies on the other hand are the complete opposite (although still very flawed), and dictated by the invisible hand of supply and demand. Because of Mao’s misguided allocation of human resources (telling millions of people to stop work and smelt useless steel in backyards or replacing doctors with high school students), an estimated 15 to 45 million deaths ensued in the Great Leap Forward. This is an example of ineffectual economic policy. In order for China to be a dominant world power, a centralized economy was not the answer, but neither was the overturning of a communist government that so effectively inspires nationalism. Deng Xiaoping came into government with a fresh perspective that contrasted with Mao’s diehard communism. “We mustn't fear to adopt the advanced management methods applied in capitalist countries... The very essence of socialism is the liberation and development of the productive systems... Socialism and market economy are not incompatible”"
@@ -63,6 +67,7 @@ var pageData = [
       {
         title: "Japan",
         author: "Pauline Unietis",
+        indent: true,
         content: [
           "Many stereotypes about Japan come from the country’s primary media export–anime, which are animated series that span across all genres and are directed at many different age groups. The common anime themes of innovative technology and their focus on kids and teenagers projects an image of Japan as a youthful, technologically advanced society–an image that is absorbed by many foreigners who watch these shows. While Japan is indeed developing new technology rapidly and effectively, the country has been unable to evolve and solve problems in many other areas that desperately need addressing. But what exactly are the problems that are plaguing Japan?",
           "One of the major problems in Japanese society is the working culture. There may be a stereotype from Japanese pop culture that Japan is all fun and games, but in reality, Japanese people work very hard. In Japan, there are salarymen (yes, they’re all men!) who work 16 hour workdays (they come into work at 9 am and go home at 2 am). Outside of working in the office, they are expected to go out and have drinks with their colleagues. The work that they do is often repetitive and boring, and the workplace follows a hierarchy based on age–that is, the older the worker is, the more benefits he receives, so workers are not rewarded based on merit. The overwork and stress caused by the salaryman culture contributes to Japan’s high suicide rates. Salarymen who work 16 hour workdays are vulnerable to feeling lonely and depressed.  Workers are expected to work through their depression by taking medication, and the unwillingness or failure to do so is seen as a sign of unprofessionalism. These workers constantly fear losing their jobs and being excluded by society, since the Japanese people still value lifelong employment.",
@@ -84,6 +89,7 @@ var pageData = [
       {
         title: "Mass Games",
         author: "NA",
+        indent: true,
         content: [
           "*** Missing media/links ***",
           "While life in North Korea is often portrayed as bleak and impoverished by the media, the Mass Games stand in direct opposition to this image. Yet the Mass Games embody the North Korean ideology and through studying them, one can gain a greater understanding of the country.",
@@ -94,6 +100,7 @@ var pageData = [
       {
         title: "Ideology",
         author: "NA",
+        indent: true,
         content: [
           "Juche, which translates to self-reliance, is an idea that was promoted during the 1950s by the North Korean government with the goal of severing Soviet influence and getting rid of Kim Il-sung’s political rivals.  The phrase Juche appears in the North Korean Constitution; in Article 3, it stipulates that “the North Korean government shall make the Juche Ideology of the Workers’ Party the guiding principle for all its actions.” Today, Juche Ideology is a tool used by the ruling class in Pyongyang as a justification of its dictatorship and hereditary power succession plan and as an excuse to close off North Korea to the world."
         ]
@@ -101,6 +108,7 @@ var pageData = [
       {
         title: "Nuclear Threat",
         author: "NA",
+        indent: true,
         content: [
           "If North Korean state media is to be believed, the United States is in immediate danger of a North Korean nuclear attack.  North Korea claims to have a miniaturized nuclear warhead and long distance missile, the two aspects required to construct an intercontinental nuclear weapon.  However, those claims are dubiously supported.  In the past decade, North Korea has tested at least four nuclear weapons in underground testing facilities, a practice banned by the United Nations. Following the most recent test, the North Korean government claimed to have successfully detonated a hydrogen bomb, however international experts doubt those claims, attributing the 5.1 magnitude earthquake to a fission explosion, rather than a fussion reaction which carries a much larger detonation.  Similarly, as recently as April 29th, 2016 North Korea announced the testing of mid-range rockets that could be converted to project missiles.  These tests, as well others conducted two weeks earlier were announced as successful by North Korean state media.  However, similar to the reaction to the nuclear tests, other countries contest that none of the missiles actually achieved sustained flight.  Mid-range missiles are a focal point in North Korea’s claim to international security, allowing the target a number of East Asian countries home to thousands of United States military personnel."
         ]
@@ -108,6 +116,7 @@ var pageData = [
       {
         title: "Purpose",
         author: "NA",
+        indent: true,
         content: [
           "“Our party and government will struggle to root out the danger of nuclear war being imposed on us by the United States, based on our strong nuclear deterrent and defend peace in the region and in the world.” - Kim Jong Un (5/7/16)",
 	        "North Korea is a confusing player on the global stage.  On one hand, it preaches that it’s nuclear arsenal is simply a “deterrent.”  On the other, it is a country that releases videos of  Seoul and New York in flames.  Many view the North as an erratic country ruled by a dictator, believed to be just over 30 years old, who is treated similarly to a deity in his own country.  This is often attributed to an ignorant population scared for their life and a rudderless regime.  Upon further review, however, the North’s organization and international relationships all tie back to its singular purpose: to unite the Korean peninsula under a single, legitimate government.  North Korean leadership has used the international community to support its cause internally and externally.  Examples include the 1993 incident with the IAEA, where North Korea was condemned for its underground nuclear test and then threatened to quit the treaty.  North Korea takes actions like these to continue to show its citizens and the world that it is still fighting against the imperialism of the west.  WIthout that constant defined conflict, the North would be purposeless, and the continued hardships of citizens would be brought into question.  Now, the daily power outages, food shortages, and unheated homes are blamed on the United States, thus the regime must at least maintain the guise of fighting for their citizens.  They often use international forums to do this without the need for actual conflict, claiming every snub a victory against the west./’"
@@ -116,6 +125,7 @@ var pageData = [
       {
         title: "Human Rights",
         author: "NA",
+        indent: true,
         content: [
           "In 2014, a Human Rights Watch report concluded that “the North Korean government has committed systematic human right abuses at a scale without parallel in the contemporary world—including extermination, murder, enslavement, torture, imprisonment, rape, forced abortions, and other sexual violence.”  Political and civil rights are practically nonexistent. The North Korean government suppresses any form of opinion or expression that opposes it -- organized political opposition, independent media, free trade unions, and religious activity are prohibited.  To outwardly speak against the government or protest civil rights abuses is to “show insufficient reverence for supreme leader Kim Jong-Un or the ruling Korean Workers’ Party.”  Communication with people outside of North Korea is strictly prohibited; violators face severe penalties.  Torture by officials is common in interrogations during imprisonment. The death penalty can be applied for “vaguely defined offenses such as “crimes against the state” and “crimes against the people.””  Some people charged with serious political offenses are sent to kwan-li-so, which are brutal labor camps that Pyongyang refuses to admit exist. By US and South Korean estimates, between 80,000 and 120,000 people are imprisoned in the four remaining kwan-li-so."
         ]
@@ -123,6 +133,7 @@ var pageData = [
       {
         title: "Statistics Relating to Quality of Life",
         author: "NA",
+        indent: false,
         content: [
           "-  ½ of North Korea’s population (total population = 24 million) lives in “extreme poverty” (KUNI report)",
           "- ⅓ of North Korean children are stunted due to malnutrition (World Food Program)",
@@ -133,6 +144,7 @@ var pageData = [
       {
         title: "The Interview (Sony Pictures): Introduction",
         author: "NA",
+        indent: true,
         content: [
           "The interview was a 2014 comedy starring Dave Franco and Seth Rogen. The two play journalists given the opportunity to interview North Korean leader Kim Jong-Un but who are then asked by the CIA to assassinate him.",
           "The satirical film made fun of North Korea and Kim Jong Un as well as perpetuated stereotypes about the East Asia in general. Not surprisingly, the North Korean government was not pleased with The Interview garnering laughs at the expense of their nation’s image and openly condemned the movie. On November 24, 2014, Sony Pictures, the parent company to Columbia Pictures which was distributing the movie, was hacked. Confidential data including employee files and correspondences between the company and actors was released, prompting the release to be pushed back to December 2014. Although North Korea denies taking any role in the hack, officials told the Washington Post that North Korea was almost certainly behind the group, “Guardians of Peace,” that took credit for the hack. As the December release date neared, “Guardians of Peace” threatened violence reminiscent of the September 11th terror attacks if the film was released. As a result, most major theater chains decided to not to show the film and it was instead released to stream as well as in a couple of hundred independent theaters."
@@ -141,16 +153,27 @@ var pageData = [
       {
         title: "The Interview (Sony Pictures): Impact on North Korean-US Relations",
         author: "NA",
+        indent: false,
         content: [
           "*** Missing media/links ***",
           "*** Missing list of takeaways ***",
           "The back and forth dialogue between the US government, Sony Pictures, the North Korean government, and the Guardians of Peace highlights the negative repercussions that the film had on US-North Korean relations. Much of the animosity was due to a lack of cultural understanding between the American and Korean parties. While to Americans The Interview was a simply another comedy but to the North Korean government, the film was an attack on their culture and image.",
           "Months prior to the movie release North Korea issued a statement condemning the movie and threatening a response if it is released.",
-          "“Making and releasing a movie on a plot to hurt our top-level leadership is the most blatant act of terrorism and war and will absolutely not be tolerated.” - North Korean Spokesman (6/25/14)",
-          "“Soon all the world will see what an awful movie Sony Pictures Entertainment has made. The world will be full of fear. Remember the 11th of September 2001. We recommend you to keep yourself distant from the places at that time. (If your house is nearby, you’d better leave.)” - Email sent to Sony’s CFO by the Guardians of Peace (12/16/2014)",
-          "“As a result of our investigation, and in close collaboration with other U.S. Government departments and agencies, the FBI now has enough information to conclude that the North Korean government is responsible for these actions.” - FBI Official Statement (12/19/14)",
-          "“We cannot have a society in which some dictators someplace can start imposing censorship here in the United States because if somebody is able to intimidate us out of releasing a satirical movie, imagine what they start doing once they see a documentary that they don't like or news reports that they don't like” - President Obama (12/19/14)",
-          "“U.S. President Obama is the chief culprit who forced the Sony Pictures Entertainment to 'indiscriminately distribute' the movie and took the lead in appeasing and blackmailing cinema houses and theatres in the U.S. mainland to distribute the movie…Obama always goes reckless in words and deeds like a monkey in a tropical forest.” -North Korea\'s National Defense Commission (12/27/14)"
+          "",
+          "“Making and releasing a movie on a plot to hurt our top-level leadership is the most blatant act of terrorism and war and will absolutely not be tolerated.”",
+          " - North Korean Spokesman (6/25/14)",
+          "",
+          "“Soon all the world will see what an awful movie Sony Pictures Entertainment has made. The world will be full of fear. Remember the 11th of September 2001. We recommend you to keep yourself distant from the places at that time. (If your house is nearby, you’d better leave.)”",
+          " - Email sent to Sony’s CFO by the Guardians of Peace (12/16/2014)",
+          "",
+          "“As a result of our investigation, and in close collaboration with other U.S. Government departments and agencies, the FBI now has enough information to conclude that the North Korean government is responsible for these actions.”",
+          " - FBI Official Statement (12/19/14)",
+          "",
+          "“We cannot have a society in which some dictators someplace can start imposing censorship here in the United States because if somebody is able to intimidate us out of releasing a satirical movie, imagine what they start doing once they see a documentary that they don't like or news reports that they don't like”",
+          " - President Obama (12/19/14)",
+          "",
+          "“U.S. President Obama is the chief culprit who forced the Sony Pictures Entertainment to 'indiscriminately distribute' the movie and took the lead in appeasing and blackmailing cinema houses and theatres in the U.S. mainland to distribute the movie…Obama always goes reckless in words and deeds like a monkey in a tropical forest.”",
+          " - North Korea\'s National Defense Commission (12/27/14)"
         ]
       }
     ]
@@ -165,6 +188,7 @@ var pageData = [
       {
         title: "South Korea",
         author: "Sonia Martin, Chloe Carothers-Liske, and Caitlin Murphy",
+        indent: true,
         content: [
           "*** Missing media/links ***",
           "Cute. K-Pop. Plastic surgery. Ally. The good Korea. These are some of the things that usually come to mind when Americans think of South Korea. The reality is that the K-Pop industry, the history, the power dynamics, and the international relations are far more interconnected and complicated than they appear.",
