@@ -65,3 +65,33 @@
 .ea-paragraph-br {
   line-height: 32px;
 }
+
+.ea-takeaway {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.ea-bibliography {
+  background-color: black;
+  color: white;
+  padding: 24px;
+}
+
+.ea-bibliography-title {
+  font-size: 35px; /*Smaller for some reason*/
+  text-decoration: underline;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+}
+
+.ea-bibliography-page {
+  margin-top: 50px;
+}
+
+.ea-source-link {
+  text-decoration: underline;
+  color: white;
+  line-height: 20px;
+}

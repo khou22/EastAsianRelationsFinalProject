@@ -75,11 +75,20 @@ layout: default
               <Article article={article} />
             )
           });
+          var takeawaysNodes = [countryData.countrySlug].map(function(countrySlug) {
+            if (countrySlug == "ov") { // If on overview page
+              // Only show if on overview page
+              return (
+                <IndividualTakeaways />
+              )
+            }
+          });
           return (
             <div>
               <Header data={countryData} />
               <WelcomeSection data={countryData}/>
               { articleNodes }
+              { takeawaysNodes }
             </div>
           );
         }
@@ -99,7 +108,7 @@ layout: default
                 <br className="ea-paragraph-br"/>
               </div>
             )
-          })
+          });
           var authorNodes = [author].map(function(author) {
             if (author != "NA") { // If assigned an author
               return (
@@ -112,7 +121,7 @@ layout: default
                 <span></span>
               )
             }
-          })
+          });
           return (
             <div className="ea-article-div">
               <h1 className="ea-article-title">
@@ -125,7 +134,38 @@ layout: default
             </div>
           )
         }
-      })
+      });
+
+      var IndividualTakeaways = React.createClass({
+        render: function() {
+          var takeaways = individualTakeaways; // From data.js
+          var takeawaysNodes = takeaways.map(function(takeaway) {
+            var author = takeaway.name;
+            var content = takeaway.content;
+            if (content != "NA") { // If the person actually wrote one
+              return (
+                <span>
+                  <div className="ea-takeaway">
+                    { content }
+                    <br />
+                    <i>- { author }</i>
+                  </div>
+                  <br className="ea-paragraph-br" />
+                </span>
+              )
+            };
+          })
+          return (
+            <div className="ea-article-div">
+              <h1 className="ea-article-title">
+                Individual Takeaways
+              </h1>
+              <br />
+              { takeawaysNodes }
+            </div>
+          )
+        }
+      });
 
       var Header = React.createClass({
         render: function() {

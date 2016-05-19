@@ -22,7 +22,7 @@ var pageData = [
   {
     countryName: "China",
     countrySlug: "cn", // Shortened name
-    countrySlogan: "\"We're taking over the world\"",
+    countrySlogan: "\"We're taking over the world...right?\"",
     welcomeBackground: "http://vignette2.wikia.nocookie.net/steamtradingcards/images/1/11/Guilty_Gear_Isuka_Background_China.jpg/revision/latest?cb=20140520060849",
     themeColor: "#E53935",
     articles: [
@@ -60,7 +60,7 @@ var pageData = [
   {
     countryName: "Japan",
     countrySlug: "jp", // Shortened name
-    countrySlogan: "\"Don't know\"",
+    countrySlogan: "The horror behind the anime...",
     welcomeBackground: "http://www.twitrcovers.com/wp-content/uploads/2013/12/Japan-Jonasdero-l.jpg",
     themeColor: "#2659C4",
     articles: [
@@ -82,7 +82,7 @@ var pageData = [
   {
     countryName: "North Korea",
     countrySlug: "nk", // Shortened name
-    countrySlogan: "\"Don't know\"",
+    countrySlogan: "\"Down with the American imperialists!\"",
     welcomeBackground: "http://www.wallpaperup.com/uploads/wallpapers/2013/02/19/41987/big_thumb_be621711dac84f62dfc982d5959f2148.jpg",
     themeColor: "#E53935",
     articles: [
@@ -181,7 +181,7 @@ var pageData = [
   {
     countryName: "South Korea",
     countrySlug: "sk", // Shortened name
-    countrySlogan: "\"Don't know\"",
+    countrySlogan: "\"Eat. Sleep. K-Pop. Repeat.\"",
     welcomeBackground: "https://s-media-cache-ak0.pinimg.com/736x/4d/9a/3b/4d9a3b83d20396b0e640582e54b66560.jpg",
     themeColor: "#2659C4",
     articles: [
