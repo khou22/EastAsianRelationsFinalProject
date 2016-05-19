@@ -444,4 +444,79 @@ var sourcesData = [
       }
     ]
   }
+];
+
+var individualTakeaways = [
+  {
+    name: "Chloe",
+    content: "I’d always thought of South Korea as being this very democratic, happy state. Learning about all the issues surrounding artists rights in K-Pop and Syngman Rhee and his dictatorial style of leadership challenged my perspective."
+  },
+  {
+    name: "Killian",
+    content: "I always thought of China as a country ridden by pollution and environmental concerns but it was definitely a breath of fresh air to learn about all of the strides they are taking to become more environmentally conscious, including the large role they played at the Paris Climate Change Conference and the funds they have allocated for solar energy."
+  },
+  {
+    name: "Rachael",
+    content: "In East Asia this semester, I was most struck by the fact that even though Japan has a  high life expectancy, low levels of crime, a strong economy, and modern infrastructure, the country is tormented by societal problems and many of its citizens are unhappy.  This information was very strange to me because I feel like the whole reason countries work towards these benchmarks is to try to obtain a better quality of life for the majority of the population."
+  },
+  {
+    name: "Qiwei",
+    content: "It was very interesting for me to look at China and East Asia from a Western perspective, as it gave me some broad generalizations that actually helped me to understand East Asia and the US better. I’ve always known things like China having a different definition of a government and Diaoyu/Senkaku Island being political time bombs implicitly, but it was enlightening to see it from a different, outside perspective that gave me new insights."
+  },
+  {
+    name: "Kevin H.",
+    content: "The most valuable concepts that I learned this semester were why each East Asian country had the stereotypes that it did. Prior to taking East Asian Relations, my perspective on the East Asian countries were largely the same as the general public’s. By learning about their respective social, economical, and cultural identities, it became more apparent as to why Japan is seen as “cool” or why China is considered a “polluted,” communist-ridden state."
+  },
+  {
+    name: "Michael",
+    content: "I think that one of the most interesting things that we delved into this year was our section about North Korea, as we learned about their domestic culture and values and how that influences their political/international representation. I found this incredibly helpful to breaking down how North Korea is portrayed in the media today and how that differs from their own perception of themselves."
+  },
+  {
+    name: "Dixon",
+    content: "The ability to “understand” East Asia is something that is incredibly complex, of course, and so that I’ve found most important is the knowledge that because we grew up in the West, our culture and worldview is fundamentally different from people in East Asia, and to understand how East Asians act we have to ignore our assumptions about how we think they should act."
+  },
+  {
+    name: "Clara",
+    content: "The most important thing I’ve learned, I think, is that to understand (or even empathize with) East Asia (or any place that isn’t necessarily familiar to us) you need to look at its history and ideology to rationalize why countries do what they do.  More specifically, I learned that Japan is not a utopia -- the hikikomori syndrome is something I’d never heard about it but found fascinating."
+  },
+  {
+    name: "Aidan",
+    content: "I have to admit that before taking this class I definitely fell into the trap of thinking that all East Asian countries were more or less the same. Now, I understand that these four unique countries have their own vibrant cultures, complicated relationships with each other as well as with the US and complex histories that help define the situation each country is in today. I also learned that trying to understand East Asia from a Western perspective can be hindering, so being able to use a multitude of sources to study East Asia is vital."
+  },
+  {
+    name: "Jasmine",
+    content: "For me, learning about the negative effects of JCool and how it contributes to the increasing isolation in Japanese society was particularly interesting. It was fascinating to see how powerful culture can be. I also came in with very positive thoughts about anime, manga, and other Japanese cultural products. Therefore, it was shocking to learn about the role it plays in Japan’s increasing loneliness and the impact it has on Japan’s national identity ."
+  },
+  {
+    name: "Sonia",
+    content: "Specifically, I think learning about Japan’s “JCool,” the hikikomori phenomenon, and the 3/11 disaster was the most interesting.  I felt like the anime and manga and Pokemon I had grown up experiencing was a façade that seems to be covering up some of Japan’s problems."
+  },
+  {
+    name: "Caitlin",
+    content: "NA"
+  },
+  {
+    name: "Maddy",
+    content: "The most interesting thing that I learned this semester was the concept of soft power. Going into this class I had thought China was the only country in the region with any global influence and so it was interesting to learn about other types of power and to see how Japan and Korea are using them to gain prominence on the global stage."
+  },
+  {
+    name: "Luke",
+    content: "NA"
+  },
+  {
+    name: "Tony",
+    content: "I’ve learned to recognize my own bias and search for different perspectives even if they do not agree with my own.  Through a new lens, I saw East Asia as a much more diverse, complicated, and globally significant region than I had before."
+  },
+  {
+    name: "Pauline",
+    content: "I’ve learned to better understand the relationships between all the countries we studied, especially that of modern Japan and China through our studying of the Senkaku-Diaoyu dispute and how much history and importance can lie on 5 islands and 3 rocks."
+  },
+  {
+    name: "Wiley",
+    content: "I lived in Beijing in 3rd and 4th grade, and it’s been incredibly interesting to connect my observations from living there with a broader and more factual understanding of China and East Asia in general. For example, I knew there was bad pollution when I lived there, but now I know that while pollution is a huge issue there, China is also one of the world’s leaders in renewable energy."
+  },
+  {
+    name: "Lizzy",
+    content: "I was always upset that high school history curriculums focus mainly on European history when the global focus is rapidly shifting east. It was incredibly useful for me to contextualize modern relationships between East Asian countries with cultural and historical background (especially Commodore Perry’s arrival in Japan, and Japan’s subsequent takeover of Korea)."
+  }
 ]
