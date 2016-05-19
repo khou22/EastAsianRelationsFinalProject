@@ -221,7 +221,7 @@ var pageData = [
     countryName: "South Korea",
     countrySlug: "sk", // Shortened name
     countrySlogan: "\"Eat. Sleep. K-Pop. Repeat.\"",
-    welcomeBackground: "https://s-media-cache-ak0.pinimg.com/736x/4d/9a/3b/4d9a3b83d20396b0e640582e54b66560.jpg",
+    welcomeBackground: "http://www.hdwallpapers.in/walls/seoul_south_korea-wide.jpg",
     themeColor: "#2659C4",
     articles: [
       {
