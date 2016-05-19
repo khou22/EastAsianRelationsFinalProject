@@ -204,4 +204,244 @@ var pageData = [
       }
     ]
   }
+];
+
+var sourcesData = [
+  {
+    countryName: "All East Asia",
+    sources: [
+      {
+        title: "Observatory of Economic Complexity (Contains economic statistics for every country)",
+        link: "http://atlas.media.mit.edu/en/"
+      },
+      {
+        title: "As TPP Leaders Celebrate, China Urges Creation of Asia-Pacific Free Trade Area",
+        link: "http://thediplomat.com/2015/11/as-tpp-leaders-celebrate-china-urges-creation-of-asia-pacific-free-trade-area/"
+      },
+      {
+        title: "Disputed Islands in the East Asian Seas",
+        link: "http://www.geocurrents.info/wp-content/uploads/2015/05/Disputed-Islands-in-the-East-Asian-Seas-1024x761.png"
+      },
+      {
+        title: "Chinese Test-Prep Factory:",
+        link: "http://www.nytimes.com/2015/01/04/magazine/inside-a-chinese-test-prep-factory.html?_r=0"
+      },
+      {
+        title: "Suicide Rates in Japan:",
+        link: "http://disposableworkers.com/?page_id=33"
+      },
+      {
+        title: "Salarymen Routine:",
+        link: "http://www.culture-at-work.com/jworklife.html"
+      },
+      {
+        title: "Confucian Beliefs:",
+        link: "http://www.britannica.com/topic/Confucianism"
+      },
+      {
+        title: "East China Sea dispute:",
+        link: "http://www.cfr.org/global/global-conflict-tracker/p32137#!/conflict/tensions-in-the-east-china-sea"
+      },
+      {
+        title: "Korean reunification:",
+        link: "http://thediplomat.com/2015/02/the-perils-of-korean-unification/"
+      },
+      {
+        title: "Factory Girls",
+        link: "http://www.newyorker.com/magazine/2012/10/08/factory-girls-2"
+      }
+    ]
+  },
+  {
+    countryName: "China",
+    sources: [
+      {
+        title: "Uniformity pictures:",
+        link: "http://www.theatlantic.com/photo/2015/05/the-chinese-art-of-the-crowd/392531/"
+      },
+      {
+        title: "China and the United States: Tale of Two Giant Economies",
+        link: "http://www.bbc.com/news/world-asia-pacific-13017882"
+      },
+      {
+        title: "China’s “Coming Debt Bust”",
+        link: "http://www.economist.com/news/leaders/21698240-it-question-when-not-if-real-trouble-will-hit-china-coming-debt-bust"
+      },
+      {
+        title: "History of China Timeline",
+        link: "http://www.bloomberg.com/graphics/2016-us-vs-china-economy/"
+      }
+    ]
+  },
+  {
+    countryName: "Japan",
+    sources: [
+      {
+        title: "Hikikomori, Temporary workers, Suicide:",
+        link: "http://disposableworkers.com/"
+      },
+      {
+        title: "Suicide:",
+        link: "http://www.bbc.co.uk/news/world-33362387"
+      },
+      {
+        title: "Suicide rates after Japan recession:",
+        link: "http://www.nytimes.com/1999/07/15/world/in-japan-mired-in-recession-suicides-soar.html"
+      },
+      {
+        title: "Hikikomori:",
+        link: "http://www.dailymail.co.uk/health/article-3153696/The-missing-youth-Japan-Millions-lock-bedroom-years-refuse-leave-Hikikomori-condition.html."
+      },
+      {
+        title: "“In Japan, Young Face Generational Roadblocks”:",
+        link: "http://www.nytimes.com/2011/01/28/world/asia/28generation.html?pagewanted=all&_r=0"
+      },
+      {
+        title: "Modern Japan: “Reimagining Japan: The Quest for a Future that Works”",
+        link: "NA"
+      },
+      {
+        title: "Post-Growth Societies:",
+        link: "https://hbr.org/2009/09/doing-business-in-a-postgrowth-society"
+      },
+      {
+        title: "Japanese Youth and J-cool: “The Cool Brand, Affective Activism and Japanese Youth”",
+        link: "NA"
+      },
+      {
+        title: "Precarious Japan:",
+        link: "http://somatosphere.net/2014/05/anne-allisons-precarious-japan.html"
+      },
+      {
+        title: "The Bubble Economy: “The Bubble Economy and the Lost Decade: Learning from the Japanese Economic Experience”",
+        link: "NA"
+      }
+    ]
+  },
+  {
+    countryName: "North Korea",
+    sources: [
+      {
+        title: "North Korea launches two midrange missiles; both tests fail:",
+        link: "http://www.cnn.com/2016/04/28/asia/north-korea-failed-missile-launch/index.html"
+      },
+      {
+        title: "North Korea Says It Has Detonated Its First Hydrogen Bomb:",
+        link: "http://www.nytimes.com/2016/01/06/world/asia/north-korea-hydrogen-bomb-test.html?_r=1"
+      },
+      {
+        title: "North Korea Claims Its Nuclear Arsenal Is Just a ‘Deterrent’:",
+        link: "http://www.nytimes.com/2016/05/08/world/asia/north-korea-claims-its-nuclear-arsenal-is-just-a-deterrent.html?action=click&contentCollection=Asia%20Pacific&module=RelatedCoverage&region=EndOfArticle&pgtype=article"
+      },
+      {
+        title: "North Korea’s Cheerleaders Spent a Whole $15 Making Their Website:",
+        link: "https://www.wired.com/2012/04/north-korea-website/"
+      },
+      {
+        title: "Fact Sheet on DPRK Nuclear Safeguards:",
+        link: "https://www.iaea.org/newscenter/focus/dprk/fact-sheet-on-dprk-nuclear-safeguards"
+      },
+      {
+        title: "“‘The Interview’ Will Be Distributed, Sony Has Only Delayed The Release: Lawyer”",
+        link: "http://www.ibtimes.com/interview-will-be-distributed-sony-has-only-delayed-release-lawyer-1764384"
+      },
+      {
+        title: "“North Korea lambasts U.S. over 'The Interview,' says Obama is the 'culprit'”",
+        link: "http://www.cnn.com/2014/12/27/world/asia/north-korea-the-interview-reaction/"
+      },
+      {
+        title: "A State of Mind (BBC Film)",
+        link: "NA"
+      },
+      {
+        title: "An Exclusive Look at Sony’s Hacking Saga",
+        link: "http://www.vanityfair.com/hollywood/2015/02/sony-hacking-seth-rogen-evan-goldberg"
+      },
+      {
+        title: "Mass games video",
+        link: "https://www.youtube.com/watch?v=LVADX5CYvZk"
+      },
+      {
+        title: "Image of the mass games:",
+        link: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Arirang_Mass_Games_33.JPG"
+      },
+      {
+        title: "Image of Franco and Rogen in The Interview",
+        link: "https://i.ytimg.com/vi/rQN1xCxji3A/maxresdefault.jpg"
+      },
+      {
+        title: "Juche Information",
+        link: "http://www2.law.columbia.edu/course_00S_L9436_001/North%20Korea%20materials/3.html"
+      },
+      {
+        title: "Human Rights Statistics",
+        link: "http://www.usnews.com/news/blogs/rick-newman/2013/04/12/heres-how-lousy-life-is-in-north-korea"
+      }
+    ]
+  },
+  {
+    countryName: "South Korea",
+    sources: [
+      {
+        title: "K-Pop Music Video — EXO Overdose:",
+        link: "https://www.youtube.com/watch?v=TI0DGvqKZTI"
+      },
+      {
+        title: "K-Pop Music Video — Girls’ Generation - I Got a Boy:",
+        link: "https://www.youtube.com/watch?v=wq7ftOZBy0E "
+      },
+      {
+        title: "K-Pop Music Video — 2ne1 - I’m the Best:",
+        link: "https://www.youtube.com/watch?v=j7_lSP8Vc3o"
+      },
+      {
+        title: "K-Pop Music Video — BigBang - Fantastic Baby:",
+        link: "https://www.youtube.com/watch?v=AAbokV76tkU&index=5&list=PL2HEDIx6Li8hDUxaa-0cLX2tNrx_brV7G"
+      },
+      {
+        title: "K-Pop Music Video — Girls’ Generation - Gee:",
+        link: "https://www.youtube.com/watch?v=U7mPqycQ0tQ&index=7&list=PL2HEDIx6Li8hDUxaa-0cLX2tNrx_brV7G"
+      },
+      {
+        title: "K-Pop Music Video — Hyuna - Bubble Pop:",
+        link: "https://www.youtube.com/watch?v=bw9CALKOvAI&list=PL2HEDIx6Li8hDUxaa-0cLX2tNrx_brV7G&index=13"
+      },
+      {
+        title: "How K-Pop is Conquering the World",
+        link: "http://www.theverge.com/2012/10/18/3516562/k-pop-invades-america-south-korea-pop-music-factory"
+      },
+      {
+        title: "“What Marketers Can Learn from Korean Pop Music”",
+        link: "https://hbr.org/2011/07/what-marketers-can-learn-from"
+      },
+      {
+        title: "K-Pop that is Being Played in North Korea",
+        link: "http://www.theguardian.com/music/2016/jan/08/bang-bang-bang-k-pop-songs-blasted-north-korea"
+      },
+      {
+        title: "More College Students are Taking Korean ",
+        link: "http://www.npr.org/sections/codeswitch/2015/04/03/397263103/way-more-college-students-are-studying-korean-is-hallyu-why  "
+      },
+      {
+        title: "Korean Language Studies are Becoming More Popular at U.S. Colleges",
+        link: "http://www.latimes.com/local/education/la-me-korean-language-20150401-story.html"
+      },
+      {
+        title: "“Power of culture – Hallyu, the Korean wave”",
+        link: "http://globe-one.com/power-of-culture-hallyu-the-korean-wave-4636/"
+      },
+      {
+        title: "Hallyu",
+        link: "http://www.economist.com/node/15385735"
+      },
+      {
+        title: "“K-Pop and the Future of Korea”",
+        link: "http://www.huffingtonpost.com/mimsie-ladner/kpop-korea-music_b_3784115.html"
+      },
+      {
+        title: "Timeline of Korean History",
+        link: "http://www.bbc.com/news/world-asia-pacific-15292674"
+      }
+    ]
+  }
 ]
