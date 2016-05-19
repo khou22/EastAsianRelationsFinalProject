@@ -98,6 +98,8 @@ layout: default
         render: function() {
           var title = this.props.article.title;
           var author = this.props.article.author;
+          var youTubeVideos = this.props.article.youTubeVideos;
+          var images = this.props.article.images;
           var indent = this.props.article.indent; // If true, 50px indent. If false, 10px padding left
           var indentStyle = indent == true ? { "textIndent": "50px" } : { "paddingLeft": "10px" }; // Apply indent
 
@@ -122,6 +124,27 @@ layout: default
               )
             }
           });
+          var videoNodes = youTubeVideos.map(function(video) {
+            var videoID = video.link.substring(video.link.indexOf('=') + 1, video.link.length); // Get only video ID
+            var videoEmbedLink = "https://www.youtube.com/embed/" + videoID; // Concatinate link
+            // console.log("Video embed link:", videoEmbedLink); // Feedback
+            return (
+              <div className="ea-youTubeVideo">
+                <iframe width="100%" height="300" src={videoEmbedLink} frameborder="0" allowfullscreen></iframe>
+                <br />
+              </div>
+            )
+          });
+          var imageNodes = images.map(function(image) {
+            return (
+              <div>
+                <br />
+                <img width="40%" height="40%" src={image.link} />
+                <br />
+                { image.title }
+              </div>
+            )
+          })
           return (
             <div className="ea-article-div">
               <h1 className="ea-article-title">
@@ -131,6 +154,8 @@ layout: default
               <div className="ea-article-content">
                 { paragraphNodes }
               </div>
+              { videoNodes }
+              { imageNodes }
             </div>
           )
         }

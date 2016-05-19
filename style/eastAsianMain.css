@@ -95,3 +95,10 @@
   color: white;
   line-height: 20px;
 }
+
+/*Make videos stack next to each other*/
+.ea-youTubeVideo {
+  display: inline-block;
+  width: 46%;
+  padding: 2%;
+}
