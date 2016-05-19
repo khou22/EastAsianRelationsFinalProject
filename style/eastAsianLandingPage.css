@@ -44,8 +44,6 @@ body {
 }
 
 .landing-cover-content {
-  -webkit-perspective: 500px; /* Chrome, Safari, Opera */
-
   position: absolute;
   z-index: 1;
   width: 800px;
@@ -54,7 +52,7 @@ body {
   left: 50%;
   top: 43%;
   color: white;
-  -webkit-transform: translateX(-400px) translateY(-200px) translateZ(10px);
+  -webkit-transform: translateX(-400px) translateY(-200px);
 }
 
 .landing-title {
@@ -71,6 +69,7 @@ body {
   position: absolute;
   width: 60%;
   margin-left: 20%;
+  margin-top: 73vh;
   text-align: center;
   z-index: 2;
 }
@@ -123,6 +122,38 @@ body {
 }
 
 .landing-page-content {
+  margin-top: 50px;
   width: 100vw;
-  height: 105vh;
+  height: 100vh;
+}
+
+.video-animation {
+  /*YouTube video class*/
+  animation-name: videoEntrance;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  position: absolute;
+  z-index: 10; /*Above everything else*/
+  margin-left: 10%;
+  margin-top: 8%;
+  width: 73%;
+  height: 75%;
+}
+
+@keyframes videoEntrance {
+  from {
+    opacity: 0.0;
+    width: 0%;
+    height: 0%;
+    margin-left: 50%;
+    margin-top: 28%;
+  }
+  to {
+    opacity: 1.0;
+    width: 73%;
+    height: 75%;
+    margin-left: 10%;
+    margin-top: 8%;
+  }
 }

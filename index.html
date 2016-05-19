@@ -28,6 +28,7 @@ layout: default
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style/fontStyle.css">
+    <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/eastAsianLandingPage.css">
 
     <!-- Google Analytics -->
@@ -37,20 +38,47 @@ layout: default
     <!-- Add favicon later -->
   </head>
   <body>
+    <div class="site-header" style="background-color: #E53935">
+      <div class="site-title">
+        <a href="file:///Users/KevinHou/Documents/Programming/EastAsianRelationsFinalProject/index.html" class="site-title-link">
+          <h1>East Asian Relations</h1>
+        </a>
+      </div>
+
+      <div class="main-menu">
+        <a href="?c=ov" class="nav-link">Overview</a>
+        <a href="?c=cn" class="nav-link">China</a>
+        <a href="?c=jp" class="nav-link">Japan</a>
+        <a href="?c=nk" class="nav-link">North Korea</a>
+        <a href="?c=sk" class="nav-link">South Korea</a>
+        <a href="Sources/index.html" class="nav-link">Sources</a>
+      </div>
+    </div>
     <div class="landing-page-cover">
+      <div id='videoPlaceholder'>
+      </div>
       <div class="landing-cover-content">
         <h4 class="landing-subtitle">East Asian Relations Presents:</h4>
         <h1 class="landing-title">Japan is NOT China</h1>
-        <a href="#">
+        <a href="#" onclick="clickedPlay()">
           <img class="landing-video-play" src="media/Video_Play_Icon.png"/>
         </a>
+        <script type="text/javascript">
+          var clickedPlay = function() { // Clicked play button
+            var youTubeTag = "<iframe id='youTubeVideo' width='560' height='315' src='https://www.youtube.com/embed/4wf0XRYfRBs' frameborder='0' allowfullscreen></iframe>"; // YouTube Embed
+            document.getElementById('videoPlaceholder').innerHTML = youTubeTag; // Replace the play button
+            var addFadeClass = setTimeout(function () {
+              document.getElementById('youTubeVideo').className += " video-animation"; // Add fade animation after video loads
+            }, 50);
+          }
+        </script>
       </div>
       <div id="scrollDown" class="scroll-down scroll-down-animation"></div>
       <script type="text/javascript">
         $('#scrollDown').click(function() {
           console.log("Clicked on scroll symbol");
           $('html,body').animate({
-            scrollTop: $("#content").offset().top + 5
+            scrollTop: $("#content").offset().top - 50
           }, '2500');
         })
       </script>
