@@ -1,0 +1,1 @@
+Website that addresses the steryeotypes, misconceptions, etc.of East Asian countries and their people. I only had a couple days to put it all together so I couldn't go through the full design process cycle. 
